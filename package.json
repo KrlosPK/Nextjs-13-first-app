@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run open-browser && next dev",
+    "open-browser": "start http://localhost:3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,5 +15,8 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
   }
 }
