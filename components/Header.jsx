@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './Header.module.css'
+import styles from '../styles/Header.module.css'
 
 const routes = [
   {
@@ -9,6 +9,10 @@ const routes = [
   {
     label: 'About',
     path: '/about'
+  },
+  {
+    label: 'Posts',
+    path: '/posts'
   }
 ]
 
